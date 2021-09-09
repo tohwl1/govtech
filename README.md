@@ -3,7 +3,7 @@
    C:\Program Files\PostgreSQL\13\bin
    C:\Program Files\PostgreSQL\13\lib
 3. Open cmd and type:
-   Psql -U postgres
+   psql -U postgres
    password
 4. Create database govtech;
 5. \c govtech
@@ -15,5 +15,9 @@
    PRIMARY KEY (user_id),
    UNIQUE(user_id,user_name)
    );
-7. Cd backend and type “npm install” and “node server.js”
-8. Cd ../frontend and type “npm install” and “npm start”
+7. right click "govtech-master" folder and click on "git bash here"
+8. type "cd backend" and type “npm install” and “node server.js”
+9. right click "govtech-master" folder and click on "git bash here'
+10. type "cd frontend" and type “npm install” and “npm start”
+
+P.S you have to refresh the page after uploading the CSV to see the uploaded content
