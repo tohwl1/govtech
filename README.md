@@ -16,3 +16,4 @@
    UNIQUE(user_id,user_name)
    );
 7. Cd backend and type “npm install” and “node server.js”
+8. Cd ../frontend and type “npm install” and “npm start”
